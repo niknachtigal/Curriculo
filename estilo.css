@@ -45,4 +45,55 @@ nav ul li a:hover {
 /* Estilo do conteúdo principal */
 main {
     margin: 40px auto; /* Adiciona margem superior e inferior, e centraliza horizontalmente */
-    max-width: 800px; /* Define a largura máxima 
+    max-width: 800px; /* Define a largura máxima do conteúdo principal */
+    padding: 20px; /* Adiciona preenchimento ao conteúdo principal */
+    background-color: #f9f9f9; /* Define a cor de fundo do conteúdo principal */
+    border-radius: 8px; /* Adiciona cantos arredondados ao conteúdo principal */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adiciona uma sombra ao conteúdo principal */
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #4CAF50; /* Define a cor de fundo verde */
+    color: white; /* Define a cor do texto branca */
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 10px 0; /* Adiciona preenchimento superior e inferior */
+    position: fixed; /* Fixa o rodapé na parte inferior da página */
+    width: 100%; /* Define a largura do rodapé para 100% da página */
+    bottom: 0; /* Posiciona o rodapé na parte inferior */
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1); /* Adiciona uma sombra ao rodapé */
+}
+
+/* Estilo do formulário de contato */
+form {
+    display: flex; /* Define um layout flexível para o formulário */
+    flex-direction: column; /* Organiza os elementos em coluna */
+}
+
+form label {
+    margin-bottom: 5px; /* Adiciona margem inferior aos rótulos */
+    font-weight: bold; /* Define os rótulos como negrito */
+}
+
+form input, form textarea {
+    margin-bottom: 15px; /* Adiciona margem inferior aos campos de entrada e área de texto */
+    padding: 10px; /* Adiciona preenchimento aos campos de entrada e área de texto */
+    border: 1px solid #cccccc; /* Define a borda dos campos de entrada e área de texto */
+    border-radius: 4px; /* Adiciona cantos arredondados aos campos de entrada e área de texto */
+    font-size: 16px; /* Define o tamanho da fonte dos campos de entrada e área de texto */
+}
+
+form button {
+    padding: 10px 20px; /* Adiciona preenchimento ao botão */
+    background-color: #4CAF50; /* Define a cor de fundo verde do botão */
+    color: white; /* Define a cor do texto branca do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 4px; /* Adiciona cantos arredondados ao botão */
+    font-size: 16px; /* Define o tamanho da fonte do botão */
+    cursor: pointer; /* Altera o cursor para um ponteiro ao passar sobre o botão */
+    transition: background-color 0.3s; /* Adiciona uma transição suave na cor de fundo do botão */
+}
+
+form button:hover {
+    background-color: #45a049; /* Define a cor de fundo do botão quando passado com o mouse */
+}
