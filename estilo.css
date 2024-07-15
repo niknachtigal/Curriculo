@@ -1,0 +1,60 @@
+/* Estilo básico para todo o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão para o texto */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    background-color: #f4f4f4; /* Define a cor de fundo */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333; /* Define a cor de fundo do cabeçalho */
+    color: white; /* Define a cor do texto */
+    padding: 1em 0; /* Adiciona preenchimento superior e inferior */
+    text-align: center; /* Centraliza o texto no cabeçalho */
+}
+
+/* Estilo da lista de navegação */
+nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+}
+
+/* Estilo dos itens da lista de navegação */
+nav ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin: 0 10px; /* Adiciona margem entre os itens da lista */
+}
+
+/* Estilo dos links de navegação */
+nav ul li a {
+    color: white; /* Define a cor do texto dos links */
+    text-decoration: none; /* Remove a sublinha dos links */
+}
+
+/* Estilo do conteúdo principal */
+main {
+    margin: 20px; /* Adiciona margem ao redor do conteúdo principal */
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333; /* Define a cor de fundo do rodapé */
+    color: white; /* Define a cor do texto do rodapé */
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 1em 0; /* Adiciona preenchimento superior e inferior */
+    position: fixed; /* Fixa o rodapé na parte inferior da página */
+    width: 100%; /* Define a largura do rodapé para 100% da página */
+    bottom: 0; /* Posiciona o rodapé na parte inferior */
+}
+
+/* Estilo do formulário de contato */
+form {
+    display: flex; /* Define um layout flexível para o formulário */
+    flex-direction: column; /* Organiza os elementos em coluna */
+}
+
+/* Estilo dos elementos do formulário */
+form label, form input, form textarea, form button {
+    margin-bottom: 10px; /* Adiciona margem inferior aos elementos */
+}
